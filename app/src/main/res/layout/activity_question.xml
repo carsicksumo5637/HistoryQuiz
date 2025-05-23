@@ -68,7 +68,7 @@
             android:text="True"
             android:textStyle="bold"
             android:textColor="@android:color/white"
-            android:background="@android:color/black"
+            android:background="@drawable/rounded_purple_button"
             android:layout_marginEnd="20dp" />
 
         <Button
@@ -78,7 +78,8 @@
             android:text="False"
             android:textStyle="bold"
             android:textColor="@android:color/white"
-            android:background="@android:color/black"
+            android:background="@drawable/rounded_purple_button"
+
             android:layout_marginStart="20dp" />
 
     </LinearLayout>
@@ -89,9 +90,10 @@
         android:layout_height="wrap_content"
         android:text="Next Question"
         android:textColor="@android:color/white"
-        android:background="@android:color/black"
         android:visibility="invisible"
         android:textStyle="bold"
+        android:background="@drawable/rounded_purple_button"
+
         app:layout_constraintTop_toBottomOf="@id/answerButtonsLayout"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
