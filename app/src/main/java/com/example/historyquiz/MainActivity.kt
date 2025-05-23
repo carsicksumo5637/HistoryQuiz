@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         titleTextView.text = "History Quiz"
 
         // Set welcome image
-        welcomeImageView.setImageResource(R.drawable.background)
+        welcomeImageView.setImageResource(R.drawable.historyimg)
 
         // Set up button click listener to navigate to QuestionActivity
         startButton.setOnClickListener {

@@ -25,7 +25,7 @@
         android:id="@+id/welcomeImageView"
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:src="@drawable/historyimage"
+        android:src="@drawable/historyimg"
         android:scaleType="fitCenter"
         app:layout_constraintTop_toBottomOf="@id/titleTextView"
         app:layout_constraintStart_toStartOf="parent"
